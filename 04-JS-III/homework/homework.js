@@ -234,16 +234,15 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
   var newArray = [ ] ;
-var suma =  numero ;
-for ( var i = 0; i < 10 ; i++) {
+var suma = i ;
+for ( var i = 0; i < 11 ; i++) {
  if ( i === 5) continue;
  else {
-suma = numero + 2;
+suma = i + 2;
 newArray.push (suma);
  }
 return newArray }
 }
-
 
 
 // No modificar nada debajo de esta línea
